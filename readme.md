@@ -45,3 +45,14 @@ User Stories
 * As a user, I should be able to reset the matchlist to ignore the current filter and display the original 10 results
 * As a user, I expect the actual number of matching records to be displayed above the matches themselves, as "{X} Matches Found"
 * As a user, I expect the number of displayed matches to change in response to the filtering criteria.
+
+
+Delivery Instructions
+=====================
+
+1. You must provide your BitBucket username. A free BitBucket account can be created at http://bitbucket.org
+1. The recruiter will give you read permission to a repository named **new-ui-challenge**, at https://bitbucket.org/ac-recruitment/new-ui-challenge
+1. You must fork this repository into a private repository on your own account and push your code in there.
+1. Once finished, you must give the user **ac-recruitment** read permission on your repository so that you can be evaluated. Then, please contact back your recruiter and he will get an engineer to evaluate your test.
+1. After you are evaluated, the recruiter will remove your read permission from the original repository.
+1. Its very important that these steps are followed accordingly, as your git and overall version control skill will also be evaluated.
