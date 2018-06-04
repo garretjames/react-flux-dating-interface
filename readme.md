@@ -58,3 +58,5 @@ Delivery Instructions
 1. Once finished, you must give the user **ac-recruitment** read permission on your repository so that you can be evaluated. Then, please contact back your recruiter and he will get an engineer to evaluate your test.
 1. After you are evaluated, the recruiter will remove your read permission from the original repository.
 1. Its very important that these steps are followed accordingly, as your git and overall version control skill will also be evaluated.
+
+PS: Only **BitBucket** deliveries will be accepted, any other system such as GitHub or ZIP will disqualify the submission. Keep in mind this must never be publicly available (such as in GitHub), this test is private and we urge you to keep yours private as well.
