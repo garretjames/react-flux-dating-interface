@@ -7,7 +7,7 @@ Guidelines
 A sample page has been provided for you. Run `npm install` followed by `npm start` to display the current page. Your goal is to populate the `#searchResults` div with a list of potential matches.
 These matches can then be filtered through the `#userPreferences` pane.
 Each match lists the candidate's photo, name, and age.
-Clicking on a match's contact button should display a dialog listing the match's phone number, cell number, and e-mail.
+Clicking on a match's contact button should display a custom dialog listing the match's phone number, cell number, and e-mail. Do not use `alert()` for this dialog.
 
 A web API is available to retrieve raw user information. Sample API usage can be found at [Random User API](https://randomuser.me/documentation#howto).
 This raw information will need to be transformed to match the display requirements below.
@@ -40,7 +40,7 @@ User Stories
     * Contact Link
 * As a user, I want to be able to filter the matches by age range, inclusive
 * As a user, I want to be able to filter the matches by gender
-* As a user, I want to be able to view a match's contact details. Contact Details contain:
+* As a user, I want to be able to view a match's contact details in a custom dialog, which should contain:
     * Phone #
     * Cell #
     * E-mail
