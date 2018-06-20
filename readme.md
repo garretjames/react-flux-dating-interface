@@ -28,7 +28,7 @@ A basic package.json file has been provided, which you are free to modify or com
 
 This project requires Node 6.11+.
 
-NOTE: Consider the scaffolding provided as a rough approximation of what the client is looking for. Feel free to modify (or completely rewrite) the markup or functionality in whatever ways you see fit. 
+NOTE: Consider the scaffolding provided as a rough approximation of what the client is looking for. Feel free to modify (or completely rewrite) the markup or functionality in whatever ways you see fit. However, keep the semantic value of the given IDs - for example, #genderFemale should still refer to the female filter.
 
 User Stories
 ============
