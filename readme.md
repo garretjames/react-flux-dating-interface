@@ -52,11 +52,12 @@ User Stories
 Delivery Instructions
 =====================
 
-1. You must provide your BitBucket username. A free BitBucket account can be created at http://bitbucket.org
-1. The recruiter will give you read permission to a repository named **new-ui-challenge**, at https://bitbucket.org/ac-recruitment/new-ui-challenge
-1. You must fork this repository into a private repository on your own account and push your code in there.
-1. Once finished, you must give the user **ac-recruitment** read permission on your repository so that you can be evaluated. Then, please contact back your recruiter and he will get an engineer to evaluate your test.
-1. After you are evaluated, the recruiter will remove your read permission from the original repository.
+1. You must provide your Gitlab username. A free Gitlab account can be created at https://gitlab.com/
+1. The recruiter will give you read permission to a repository named **challenge-ac001**, at https://gitlab.com/acbr/recruitment/js/challenge-ac001
+1. You must **fork** this repository into a private repository on your own account and push your code in there.
+1. Once finished, you must give the user **ac-recruitment** read permission on your repository so that you can be evaluated. 
+1. Then you need to create a **pull request** merging your repository into "challenge-ac001" original repository.
+    NOTE: If you refresh the page - you will see that the pull request no longer exists. This is normal and expected.
 1. Its very important that these steps are followed accordingly, as your git and overall version control skill will also be evaluated.
 
-PS: Only **BitBucket** deliveries will be accepted, any other system such as GitHub or ZIP will disqualify the submission. Keep in mind this must never be publicly available (such as in GitHub), this test is private and we urge you to keep yours private as well.
+PS: Only **GitLab** deliveries will be accepted, any other system such as GitHub or ZIP will disqualify the submission. Keep in mind this must never be publicly available (such as in GitHub), this test is private and we urge you to keep yours private as well.
