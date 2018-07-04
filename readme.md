@@ -20,7 +20,7 @@ These results should be displayed, unfiltered, to the user. The user can then fi
 If you are applying for a role involving a specific framework, please implement your solution for the search results using that framework.
 You are free to refactor the existing filtering controls to use this framework as well, but are not required to do so.
 
-**Please make sure you also write some unit tests**. You can use Jest which is preinstalled, triggered by `npm test`, or you can replace with your favorite unit test library. We require you to at least write tests for one single component or module, but ensure it is covering all functions for that component or module.
+**Please make sure you also write some unit tests**. You can use Jest which is preinstalled, triggered by `npm test`, or you can replace with your favorite unit test library.
 
 Further Instructions
 ===================
@@ -70,15 +70,12 @@ Check List
 - [ ] Did you leave a readable Readme file? Can a dummy dev do all the installation and run processes there described?
 - [ ] Running `npm install` is the only necessary step to install dependencies (you may delete node modules folder before it)
 - [ ] Running `npm test` works successfully
-- [ ] Are the tests cases for your chosen component well written and covering the code properly?
+- [ ] Are the tests cases well written and covering the code properly?
 - [ ] After run `npm start` I'm able to see the application working on http://localhost:3000/
-- [ ] Is application looking as the wireframes?
-- [ ] Is the page responsive for small, medium and large screens? 
-- [ ] Ensure code is in a good shape - eg. running a linter 
 - [ ] I am using the data-id's listed above and available on index.html
 
 e.g.:
 
 `[data-id="resultItem"]`, `[data-id="buttonFilter"]`, `[data-id="userDialogs"]`
 
-`<div data-id="userAge">21</div>` No matter the html tag, the element which represents the user age keeps the `data-id` value as `userAge` 
+`<div data-id="userAge">21</div>` Again this html tag is just an example, what matters here is that the element that represents the user age keeps the `data-id` value as `userAge` 
