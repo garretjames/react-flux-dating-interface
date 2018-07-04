@@ -4,10 +4,10 @@ A fictional client, Lonely Hearts, wants to create a dating service for its cust
 
 Guidelines
 =========
-A sample page has been provided for you. Run `npm install` followed by `npm start` to display the current page. Your goal is to populate the `#searchResults` div with a list of potential matches.
-These matches can then be filtered through the `#userPreferences` pane.
+A sample page has been provided for you. Run `npm install` followed by `npm start` to display the current page. Your goal is to populate the `data-id="searchResults"` div with a list of potential matches.
+These matches can then be filtered through the `data-id="userPreferences` pane.
 Each match lists the candidate's photo, name, and age.
-Clicking on a match's contact button `#buttonFilter` should display a custom dialog `#userContact` listing the match's phone number `#userPhone`, cell number `#userCell`, and e-mail `#userEmail`. Do not use `alert()` for this dialog.
+Clicking on a match's contact button `data-id="buttonFilter` should display a custom dialog `data-id="userContact"` listing the match's phone number `data-id="userPhone"`, cell number `data-id="userCell"`, and e-mail `data-id="userEmail"`. Do not use `alert()` at all.
 
 A web API is available to retrieve raw user information. Sample API usage can be found at [Random User API](https://randomuser.me/documentation#howto).
 This raw information will need to be transformed to match the display requirements below.
@@ -20,7 +20,7 @@ These results should be displayed, unfiltered, to the user. The user can then fi
 If you are applying for a role involving a specific framework, please implement your solution for the search results using that framework.
 You are free to refactor the existing filtering controls to use this framework as well, but are not required to do so.
 
-**PS: Please take some time and write some unit tests**. You can use Jest which is preinstalled, triggered by `npm test`, or you can replace with your favorite unit test library.
+**Please make sure you also write some unit tests**. You can use Jest which is preinstalled, triggered by `npm test`, or you can replace with your favorite unit test library. We require you to at least write tests for one single component or module, but ensure it is covering all functions for that component or module.
 
 Further Instructions
 ===================
@@ -30,7 +30,7 @@ This project requires Node 6.11+. **Do not use a lower version**.
 
 If you want to use another framework, **feel free to install other dependencies as you wish**. You can use tools such as [Angular CLI](https://cli.angular.io/) and [Vue CLI](https://github.com/vuejs/vue-cli), just make sure that the project is running at port 3000 (e.g.: running the cli with `--port 3000` might help) and the only necessary steps to start the project is running `npm install` plus `npm start`.
 
-NOTE: Consider the scaffolding provided as a rough approximation of what the client is looking for. Feel free to modify (or completely rewrite) the markup or functionality in whatever ways you see fit. However, keep the semantic value of the given IDs - for example, `#genderFemale` should still refer to the female filter.
+NOTE: Consider the scaffolding provided as a rough approximation of what the client is looking for. Feel free to modify (or completely rewrite) the markup or functionality in whatever ways you see fit. However, keep the semantic value of the given data attribute IDs - for example, `data-id="genderFemale"` should still refer to the female filter.
 
 User Stories
 ============
@@ -67,9 +67,14 @@ PS: Only **GitLab** deliveries will be accepted, any other system such as GitHub
 Check List
 =====================
 - [ ] I'm using node version 6.11+
-- [ ] Running `npm install` is the only necessary step to install dependencies
+- [ ] Did you leave a readable Readme file? Can a dummy dev do all the installation and run processes there described?
+- [ ] Running `npm install` is the only necessary step to install dependencies (you may delete node modules folder before it)
 - [ ] Running `npm test` works successfully
+- [ ] Are the tests cases for your chosen component well written and covering the code properly?
 - [ ] After run `npm start` I'm able to see the application working on http://localhost:3000/
+- [ ] Is application looking as the wireframes?
+- [ ] Is the page responsive for small, medium and large screens? 
+- [ ] Ensure code is in a good shape - eg. running a linter 
 - [ ] I am using the data-id's listed above and available on index.html
 
 e.g.:
