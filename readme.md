@@ -24,9 +24,11 @@ You are free to refactor the existing filtering controls to use this framework a
 
 Further Instructions
 ===================
-A basic package.json file has been provided, which you are free to modify or completely overwrite. If using React, we've provided a more complete version with `package.react.json` ( if you want to use another framework, feel free to install other dependencies as you wish ). This file will allow you to use `npm install` to scaffold the application and `npm start` to launch the application. If you use your own build pipeline, please include documentation on how your application should be run and/or tested.
+A basic package.json file has been provided, which you are free to modify or completely overwrite. If using React, we've provided a more complete version with `package.react.json`. This file will allow you to use `npm install` to scaffold the application and `npm start` to launch the application. If you use your own build pipeline, please include documentation on how your application should be run and/or tested.
 
 This project requires Node 6.11+. **Do not use a lower version**.
+
+If you want to use another framework, **feel free to install other dependencies as you wish**. You can use tools such as [Angular CLI](https://cli.angular.io/) and [Vue CLI](https://github.com/vuejs/vue-cli), just make sure that the project is running at port 3000 (e.g.: running the cli with `--port 3000` might help) and the only necessary steps to start the project is running `npm install` plus `npm start`.
 
 NOTE: Consider the scaffolding provided as a rough approximation of what the client is looking for. Feel free to modify (or completely rewrite) the markup or functionality in whatever ways you see fit. However, keep the semantic value of the given IDs - for example, `#genderFemale` should still refer to the female filter.
 
