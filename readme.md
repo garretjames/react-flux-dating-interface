@@ -68,4 +68,10 @@ Check List
 - [ ] Running `npm install` is the only necessary step to install dependencies
 - [ ] Running `npm test` works successfully
 - [ ] After run `npm start` I'm able to see the application working on http://localhost:3000/
-- [ ] I am using the data-id's listed above and available on index.html (e.g.: `[data-id="resultItem"]`, `[data-id="buttonFilter"]`, `[data-id="userDialogs"]`)
+- [ ] I am using the data-id's listed above and available on index.html
+
+e.g.:
+
+`[data-id="resultItem"]`, `[data-id="buttonFilter"]`, `[data-id="userDialogs"]`
+
+`<div data-id="userAge">21</div>` No matter the html tag, the element which represents the user age keeps the `data-id` value as `userAge` 
