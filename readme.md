@@ -67,7 +67,6 @@ PS: Only **GitLab** deliveries will be accepted, any other system such as GitHub
 Check List
 =====================
 - [ ] I'm using node version 6.11+
-- [ ] Did you leave a readable Readme file? Can a dummy dev do all the installation and run processes there described?
 - [ ] Running `npm install` is the only necessary step to install dependencies (you may delete node modules folder before it)
 - [ ] Running `npm test` works successfully
 - [ ] Are the tests cases well written and covering the code properly?
