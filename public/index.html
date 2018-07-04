@@ -39,37 +39,37 @@
         <form class="form">
           <div class="form-group">
             <label class="control-label">Age</label>
-            <input type="text" name="ageMin" value="18" id="ageMin"> to
-            <input type="text" name="ageMax" value="90" id="ageMax">
+            <input type="text" name="ageMin" value="18" data-id="ageMin"> to
+            <input type="text" name="ageMax" value="90" data-id="ageMax">
           </div>
 
           <div class="form-group">
             <label class="control-label">Gender</label>
-            <label class="radio-inline"><input type="radio" name="gender" id="genderAny" checked />Any</label>
-            <label class="radio-inline"><input type="radio" name="gender" id="genderMale" />Male</label>
-            <label class="radio-inline"><input type="radio" name="gender" id="genderFemale" />Female</label>
+            <label class="radio-inline"><input type="radio" name="gender" data-id="genderAny" checked />Any</label>
+            <label class="radio-inline"><input type="radio" name="gender" data-id="genderMale" />Male</label>
+            <label class="radio-inline"><input type="radio" name="gender" data-id="genderFemale" />Female</label>
           </div>
 
-          <button type="button" class="btn btn-default" id="buttonReset">Reset</button>
-          <button type="submit" class="btn btn-primary" id="buttonFilter">Filter</button>
+          <button type="button" class="btn btn-default" data-id="buttonReset">Reset</button>
+          <button type="submit" class="btn btn-primary" data-id="buttonFilter">Filter</button>
         </form>
       </div>
 
       <!-- YOUR CODE HERE -->
       <div id="searchResults">
-        <h2 id="resultTitle">2 Candidates Found</h2>
+        <h2 data-id="resultTitle">2 Candidates Found</h2>
         <ul>
-          <li>
-            <img id="userPhoto" class="photo" src="https://randomuser.me/api/portraits/women/95.jpg">
-            <span id="userName" class="name lead"></span>Martha Stewart</span>
-            <span id="userAge" class="age lead">28</span>
-            <button id="userInfo">Contact</button>
+          <li data-id="resultItem">
+            <img data-id="userPhoto" class="photo" src="https://randomuser.me/api/portraits/women/95.jpg">
+            <span data-id="userName" class="name lead"></span>Martha Stewart</span>
+            <span data-id="userAge" class="age lead">28</span>
+            <button data-id="userInfo">Contact</button>
           </li>
-          <li>
-            <img id="userPhoto" class="photo" src="https://randomuser.me/api/portraits/men/45.jpg">
-            <span id="userName" class="name lead">Donald J Trump</span>
-            <span id="userAge" class="age lead">70</span>
-            <button id="userInfo">Contact</button>
+          <li data-id="resultItem">
+            <img data-id="userPhoto" class="photo" src="https://randomuser.me/api/portraits/men/45.jpg">
+            <span data-id="userName" class="name lead">Donald J Trump</span>
+            <span data-id="userAge" class="age lead">70</span>
+            <button data-id="userInfo">Contact</button>
           </li>
         </ul>
       </div>
@@ -79,10 +79,10 @@
 </body>
 
 <script type="text/template">
-  <div id="userContact">
-    <span id="userPhone"></span>
-    <span id="userCell"></span>
-    <span id="userEmail"></span>
+  <div data-id="userDialog">
+    <span data-id="userPhone"></span>
+    <span data-id="userCell"></span>
+    <span data-id="userEmail"></span>
   </div>
 </script>
 
