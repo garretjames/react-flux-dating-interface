@@ -64,6 +64,10 @@ Delivery Instructions
 
 PS: Only **GitLab** deliveries will be accepted, any other system such as GitHub or ZIP will disqualify the submission. Keep in mind this must never be publicly available (such as in GitHub), this test is private and we urge you to keep yours private as well.
 
+### Wireframe
+
+![Wireframe.](wireframe.png)
+
 Check List
 =====================
 - [ ] I'm using node version 6.11+
