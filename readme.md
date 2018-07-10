@@ -73,9 +73,8 @@ Check List
 - [ ] I'm using node version 6.11+
 - [ ] Running `npm install` is the only necessary step to install dependencies (you may delete node modules folder before it)
 - [ ] Running `npm test` works successfully
-- [ ] Are the tests cases well written and covering the code properly?
-- [ ] After run `npm start` I'm able to see the application working on http://localhost:3000/
-- [ ] I am using the data-id's listed above and available on index.html
+- [ ] After running `npm start` I'm able to see the application working on http://localhost:3000/
+- [ ] I am using the data-id's listed in the wireframe above
 
 e.g.:
 
