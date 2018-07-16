@@ -57,7 +57,7 @@ Delivery Instructions
 1. You must provide your Gitlab username. A free Gitlab account can be created at https://gitlab.com/
 1. The recruiter will give you read permission to a repository named **challenge-ac001**, at https://gitlab.com/acbr/recruitment/js/challenge-ac001
 1. You must **fork** this repository into a private repository on your own account and push your code in there.
-1. Once finished, you must give the user **ac-recruitment** read permission on your repository so that you can be evaluated. 
+1. Once finished, you must give the user **avenuecode** read permission (any non-guest roles) on your repository so that you can be evaluated. 
 1. Then you need to create a **pull request** to merge your repository into "challenge-ac001" original repository.
     NOTE: If you refresh the page - you will see that the pull request no longer exists. This is normal and expected.
 1. Its very important that these steps are followed accordingly, as your git and overall version control skills will also be evaluated.
