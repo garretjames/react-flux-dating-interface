@@ -24,7 +24,7 @@ You are free to refactor the existing filtering controls to use this framework a
 
 Further Instructions
 ===================
-A basic package.json file has been provided, which you are free to modify or completely overwrite. If using React, we've provided a more complete version with `package.react.json`. This file will allow you to use `npm install` to scaffold the application and `npm start` to launch the application. If you use your own build pipeline, please include documentation on how your application should be run and/or tested.
+A basic package json file has been provided, which you are free to modify or completely overwrite. If using React, observe that `package.json` is prepared and ready for use. This file will allow you to use `npm install` to scaffold the application and `npm start` to launch the application. If you use your own build pipeline, please include documentation on how your application should be run and/or tested.
 
 This project requires Node 6.11+. **Do not use a lower version**.
 
