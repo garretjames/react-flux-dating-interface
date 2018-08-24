@@ -5,9 +5,9 @@ A fictional client, Lonely Hearts, wants to create a dating service for its cust
 Guidelines
 =========
 A sample page has been provided for you. Run `npm install` followed by `npm start` to display the current page. Your goal is to populate the `data-id="searchResults"` div with a list of potential matches.
-These matches can then be filtered through the `data-id="userPreferences` pane.
+These matches can then be filtered through the `data-id="userPreferences"` pane.
 Each match lists the candidate's photo, name, and age.
-Clicking on a match's contact button `data-id="buttonFilter` should display a custom dialog `data-id="userContact"` listing the match's phone number `data-id="userPhone"`, cell number `data-id="userCell"`, and e-mail `data-id="userEmail"`. Do not use `alert()` at all.
+Clicking on a match's contact button `data-id="userInfo"` should display a custom dialog `data-id="userContact"` listing the match's phone number `data-id="userPhone"`, cell number `data-id="userCell"` and e-mail `data-id="userEmail"`. Do not use `alert()` at all.
 
 A web API is available to retrieve raw user information. Sample API usage can be found at [Random User API](https://randomuser.me/documentation#howto).
 This raw information will need to be transformed to match the display requirements below.
