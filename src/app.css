@@ -1,0 +1,9 @@
+.form-group label span {
+  padding: 20px;
+}
+
+.age-filter-input {
+  display: inline;
+  max-width: 120px;
+  margin: auto;
+}
