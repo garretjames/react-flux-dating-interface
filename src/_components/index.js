@@ -1,3 +1,3 @@
-export * from "./SearchFilter";
-export * from "./SearchResults";
-export * from "./UserInfo";
+export * from "./MatchResults";
+export * from "./MatchFilter";
+export * from "./MatchInfo";
