@@ -16,28 +16,35 @@ export class MatchResults extends React.Component {
         <Jumbotron fluid>
           <Container fluid>
             <Row>
-              <div data-id="searchResults">
+              <div id={"searchResults"} data-id="searchResults">
                 {matches && (
                   <div>
-                    <h1 data-id="resultTitle" className="display-3">
-                      <Alert color="success">
+                    <h1 className="display-3">
+                      <Alert data-id="resultTitle" color="success">
                         {numMatches} Candidates Found
                       </Alert>
                     </h1>
 
-                        {matches.map((match, index) => (
-                      <Col key={match.id.value} data-id="resultItem">
+                    {matches.map((match, index) => (
+                      <Col
+                        key={match.id.value}
+                        className={"match-result"}
+                        data-id="resultItem"
+                      >
                         <img
                           data-id="userPhoto"
                           className="photo"
                           src={match.picture.large}
                         />
                         <span data-id="userName" className="name lead">
-                          {match.name.first} {match.name.last}
+                            <span><b>Name:</b></span> {match.name.first} {match.name.last}
                         </span>
+                          {"  "}
                         <span data-id="userAge" className="age lead">
+                            <span><b>Age:</b></span>
                           {match.dob.age}
                         </span>
+                        <br />
                         <MatchInfo userInfo={match} />
                       </Col>
                     ))}
