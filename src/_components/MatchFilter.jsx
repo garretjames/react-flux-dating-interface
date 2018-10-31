@@ -85,6 +85,7 @@ export class MatchFilter extends React.Component {
           <Button
             type={"button"}
             color="danger"
+            id={"filter-btn"}
             onClick={this.props.handleResetFilter}
             data-id={"buttonReset"}
           >

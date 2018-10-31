@@ -7,7 +7,7 @@ import MatchesActions from "./matches.actions";
 
 import "./app.css";
 
-export class LonelyHeartsApp extends React.Component {
+export default class LonelyHeartsApp extends React.Component {
   static handleSubmitFilter(e) {
     e.preventDefault();
     const { initMatches } = MatchesStore.getState();

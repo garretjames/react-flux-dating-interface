@@ -5,8 +5,7 @@ import { MatchInfo } from "./MatchInfo";
 
 export class MatchResults extends React.Component {
   render() {
-    const { matches } = this.props;
-    const { numMatches } = this.props;
+    const { matches, numMatches } = this.props;
     return (
       <div>
         {matches.loading && <span>Loading matches...</span>}
@@ -37,11 +36,16 @@ export class MatchResults extends React.Component {
                           src={match.picture.large}
                         />
                         <span data-id="userName" className="name lead">
-                            <span><b>Name:</b></span> {match.name.first} {match.name.last}
+                          <span>
+                            <b>Name:</b>
+                          </span>{" "}
+                          {match.name.first} {match.name.last}
                         </span>
-                          {"  "}
+                        {"  "}
                         <span data-id="userAge" className="age lead">
-                            <span><b>Age:</b></span>
+                          <span>
+                            <b>Age:</b>
+                          </span>
                           {match.dob.age}
                         </span>
                         <br />
