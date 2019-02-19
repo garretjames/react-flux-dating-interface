@@ -2,7 +2,7 @@ import { altUtils as alt } from "./alt.utils";
 
 const BASE_URL = "https://randomuser.me/api/?";
 const INIT_PARAMS =
-  "inc=id,gender,name,picture,phone,cell,email,dob&nat=US&results=10&seed=initMatches";
+  "inc=id,gender,name,picture,phone,cell,email,dob&nat=US&results=50&seed=initMatches";
 
 class MatchesActions {
   getInitMatches() {
